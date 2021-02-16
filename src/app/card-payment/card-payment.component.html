@@ -59,7 +59,7 @@
                     </div>
                     <div class="col-6">
                         <div class="input-group"> 
-                            <input class="form-control" type="password" name="cvv" formControlName="cvv"                             
+                            <input class="form-control" (keydown)="numberOnly($event)" type="password" name="cvv" formControlName="cvv"                             
                             placeholder="&#9679;&#9679;&#9679;" minlength="3" maxlength="3"> <label>CVV</label> 
                         </div>
                     </div>

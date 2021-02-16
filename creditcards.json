@@ -15,6 +15,14 @@
       "amount": 3400,
       "expirationDate": "23/43",
       "securityCode": ""
+    },
+    {
+      "id": 99,
+      "cardNumber": "23542524322",
+      "cardHolder": "David Edet",
+      "amount": 453,
+      "expirationDate": "23/43",
+      "securityCode": ""
     }
   ]
 }
