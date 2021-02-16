@@ -1,0 +1,20 @@
+{
+  "creditcards": [
+    {
+      "id": 75,
+      "cardNumber": "2424513453142132",
+      "cardHolder": "David Edet",
+      "amount": 3400000,
+      "expirationDate": "23/45",
+      "securityCode": ""
+    },
+    {
+      "id": 82,
+      "cardNumber": "23114353253443231",
+      "cardHolder": "David Edet",
+      "amount": 3400,
+      "expirationDate": "23/43",
+      "securityCode": ""
+    }
+  ]
+}

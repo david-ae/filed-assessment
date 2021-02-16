@@ -1,0 +1,25 @@
+{
+  "creditcards":[
+    {
+      "cardNumber":"98463829121832",
+      "cardHolder": "Josh Haley",
+      "expirationDate":"12/21",
+      "securityCode": 700,
+      "amount": 4500
+    },
+    {
+      "cardNumber":"54321829121832",
+      "cardHolder": "Dan Koa",
+      "expirationDate":"21/98",
+      "securityCode": 600,
+      "amount": 2500
+    },
+    {
+      "cardNumber":"12345829121832",
+      "cardHolder": "Lou Sang",
+      "expirationDate":"19/20",
+      "securityCode": 800,
+      "amount": 500
+    }
+  ]    
+}

@@ -1,0 +1,28 @@
+<div class="container col-md-3 landing">
+    <button class="btn btn-lg btn-primary" (click)="payment()">Go to Payment</button>
+</div>
+<br/>
+<div class="center" *ngIf="creditCard | async as card">
+
+    <div class="container col-md-6">
+
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Card Number</th>
+                <th scope="col">Card Holder</th>
+                <th scope="col">Expiry Date</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>{{card.cardNumber}}</td>
+                <td>{{card.cardHolder}}</td>
+                <td>{{card.expirationDate}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
