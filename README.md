@@ -1,6 +1,7 @@
 # Assessment For Front-End Developer
 
-Please clone or zip the angular application. Then npm install.
+Please clone or zip the angular application. Then
+#### > **npm install**
 
 A json-server must be running concurrently with the angular application.
 Run the json-server with the following command on command prompt or any other command line interpreter (powershell):
