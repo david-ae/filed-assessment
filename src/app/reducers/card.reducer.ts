@@ -4,8 +4,8 @@ import * as CardActions from './../actions/card.actions'
 
 const initialState : CreditCard = {
     id: 0,
-    cardNumber: '##########',
-    cardHolder: 'ABCD',
+    cardNumber: 'No Card Added',
+    cardHolder: 'No Card Added',
     amount: 0.0,
     expirationDate: '00/00',
     securityCode: 123
